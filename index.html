@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bon Appétit</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Vollkorn+SC:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-12 text-center mt-2">
+                    <a href="index.html"><img src="img/logo.png" alt="logo" class="img-fluid"></a>
+                </div>
+                <div class="col-md-12 text-center">
+                    <span class="text-center">Discover the French Cuisine Blog</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar -->
+<div class="container">
+    <nav class="navbar navbar-expand-lg border-top border-bottom border-dark" id="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bolder" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="main-dishes.html">Main Dishes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="breads.html">Breads</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="desserts.html">Desserts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="recommendations.html">Recommendations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!-- hero -->
+    <div class="row mt-3">
+        <div class="col-md-12">
+                        <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="recipes/dessert1.html"><h1>Molten Chocolate Cake</h1></a>
+                        <a href="recipes/dessert1.html"><img src="img/molten-chocolate-cake.jpg" alt="molten-chocolate-cake"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="recipes/main1.html"><h1>Duck a l'Orange</h1></a>
+                        <a href="recipes/main1.html"><img src="img/orange-duck.jpg" alt="orange-duck"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="recipes/bread1.html"><h1>Croissant</h1></a>
+                        <a href="recipes/bread1.html"><img src="img/croissant.jpg" alt="croissant"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="recipes/main2.html"><h1>Tarte à La Tomate</h1></a>
+                        <a href="recipes/main2.html"><img src="img/tomato-tart.jpg" alt="tomato-tart"></a>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="autoplay-progress">
+                <svg viewBox="0 0 48 48">
+                    <circle cx="24" cy="24" r="20"></circle>
+                </svg>
+                <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- home content -->
+    <div class="container hero-container">
+        <div class="row">
+            <div class="col-md-9 side">
+                <div class="row mb-5">
+                    <div class="col-md-12 text-center">
+                        <h2>As they say in Paris, "c'est la vie"!</h2>
+                        <p>These are the latest recipes on the Blog:</p>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <a href="recipes/dessert1.html" data-aos="zoom-in"><img src="img/molten-chocolate-cake.jpg" class="img-fluid rounded mx-auto d-block" alt="molten-chocolate-cake"></a>
+                        <a href="recipes/dessert1.html"><h3 class="text-center mt-3">Molten Chocolate Cake</h3></a>
+                        <p class="text-center">With Valentine’s Day right around the corner, everyone needs a decadent chocolate recipe to indulge in & this Molten Lava Cake is a chocolate…</p>
+                        <p class="date">March 14, 2023</p>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <a href="recipes/main1.html" data-aos="zoom-in"><img src="img/orange-duck.jpg" class="img-fluid rounded mx-auto d-block" alt="orange-duck"></a>
+                        <a href="recipes/main1.html"><h3 class="text-center mt-3">Duck a l'Orange</h3></a>
+                        <p class="text-center">The holiday season is in full swing & on my menu this year is a popular French duck dish: Duck à l’Orange! A roasted & crispy skinned whole duck served…</p>
+                        <p class="date">March 14, 2023</p>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <a href="recipes/bread1.html" data-aos="zoom-in"><img src="img/croissant.jpg" class="img-fluid rounded mx-auto d-block" alt="croissant"></a>
+                        <a href="recipes/bread1.html"><h3 class="text-center mt-3">Croissant</h3></a>
+                        <p class="text-center">Named after its crescent shape, the buttery and flaky bread is made from multi-layered yeast-leavened doug…</p>
+                        <p class="date">March 14, 2023</p>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <a href="recipes/dessert2.html" data-aos="zoom-in"><img src="img/apple-tart.jpg" class="img-fluid rounded mx-auto d-block" alt="apple-tart"></a>
+                        <a href="recipes/dessert2.html"><h3 class="text-center mt-3">Rosemary & Apple Tarte Tatin</h3></a>
+                        <p class="text-center">The classic Tarte Tatin originated in the Centre-Val de Loire of France & is named after the Tatin sisters who created this dessert. At…</p>
+                        <p class="date">March 14, 2023</p>
+                    </div>
+                    <div class="col-md-6 mt-3" >
+                        <a href="recipes/main2.html" data-aos="zoom-in"><img src="img/tomato-tart.jpg" class="img-fluid rounded mx-auto d-block" alt="tomato-tart"></a>
+                        <a href="recipes/main2.html"><h3 class="text-center mt-3">Tarte à La Tomate</h3></a>
+                        <p class="text-center">This vibrant & colourful tomato tart is so versatile for summer! It can be served straight from the oven as a seasonal & elegant…</p>
+                        <p class="date">March 14, 2023</p>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <a href="recipes/dessert3.html" data-aos="zoom-in"><img src="img/strawberry-lemon-cake.jpg" class="img-fluid rounded mx-auto d-block" alt="strawberry-lemon-cake"></a>
+                        <a href="recipes/dessert3.html"><h3 class="text-center mt-3">Strawberry Lemon Layer Cake</h3></a>
+                        <p class="text-center">Well, I can’t think of a more fitting cake to celebrate May & all the beautiful the flowers in bloom! This cake features layers…</p>
+                        <p class="date">March 14, 2023</p>
+                    </div>
+                </div>
+            </div>
+                        <!-- side -->
+                        <div class="col-md-3 mt-3 about-side">
+                            <p class="mt-5 text-center">About the Author</p>
+                            <img src="img/about.jpg" alt="" class="mt-2 author-img">
+                            <p class="mt-3 text-center">I'm Lady Grace Cannu, and I'm currently a student at Kodego. We have a multiple website page project that must have a topic. I decided to make a food blog about French cuisine because I rarely make blog websites and I thought it was related to me because I used to work as a waitress at French Baker in 2018.</p>
+                            <a href="about.html"><h6 class="text-center">More about me →</h6></a>
+            
+                            <div class="mx-auto about-socials mt-5">
+                                <img src="img/about-facebook.png" class="mx-auto" alt="">
+                                <img src="img/about-instagram.png" class="mx-auto" alt="">
+                                <img src="img/about-twitter.png" class="mx-auto" alt="">
+                            </div>
+                            <div class="mx-auto about-other mt-5">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="text-center">Other Recipes:</p>
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <a href="recipes/main6.html"><img src="img/Steak-Frites.jpg" alt="" class="img-fluid"></a>
+                                        <a href="recipes/main6.html"><p class="text-center mt-2">Steak frites</p></a>
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <a href="recipes/bread1.html"><img src="img/croissant.jpg" alt="" class="img-fluid"></a>
+                                        <a href="recipes/bread1.html"><p class="text-center mt-2">Croissant</p></a>
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <a href="recipes/dessert2.html"><img src="img/apple-tart.jpg" alt="" class="img-fluid"></a>
+                                        <a href="recipes/dessert2.html"><p class="text-center mt-2">Rosemary & Apple Tarte Tatin</p></a>
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <a href="recipes/dessert4.html"><img src="img/chocolate-medallions.jpg" alt="" class="img-fluid"></a>
+                                        <a href="recipes/dessert4.html"><p class="text-center mt-2">French Chocolate Mendiants</p></a>
+                                    </div>
+                                </div>
+                                <div class="row mt-5">
+                                    <div class="col-md-12">
+                                        <img src="img/ad1.gif" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <img src="img/ad2.gif" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end side -->
+        </div>
+    </div>
+
+    <!-- newsletter content -->
+    <div class="newsletter">
+        <div class="row mt-3 mb-5">
+            <div class="col-md-12">
+                <div class="col-md-12 text-center newsletter-content">
+                    <h3>Ooh la la! Discover the magic of French cuisine</h3>
+                    <p>Provide your email below for blog updates</p>
+                    <div class="col-md-3 mx-auto">
+                        <div class="input-group">
+                            <input type="search" class="form-control rounded" placeholder="Enter Your Email" aria-label="Search" aria-describedby="search-addon" />
+                            <button type="button" class="btn btn-dark">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/chestnut-soup.jpg" alt="chestnut-soup" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="footer-logo" src="img/logo.png" alt="">
+                    <p class="text-white">Discover the French Cuisine Blog</p>
+                </div>
+                <div class="col-md-3 footer-about">
+                    <h4>About The Blog</h4>
+                    <p class="text-white">We hope this blog will inspire you to try new recipes at home and bring you new perspectives on a beautiful country, France.</p>
+                </div>
+                <div class="col-md-3 footer-link">
+                    <h4 class="text-white">Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="main-dishes.html">Main Dishes</a></li>
+                        <li><a href="breads.html">Breads</a></li>
+                        <li><a href="desserts.html">Desserts</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="recommendations.html">Recommendations</li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-social">
+                    <h4>Contact</h4>
+                    <p><img src="img/email.png" alt=""> thebonappetit@gmail.com</p>
+                    <div class="social-media">
+                        <img src="img/facebook.png" alt="">
+                        <img src="img/instagram.png" alt="">
+                        <img src="img/twitter.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer p-2 bg-dark">
+            <p class="text-center text-white">Copyright ©2023 The Bon Appétit</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        const progressCircle = document.querySelector(".autoplay-progress svg");
+        const progressContent = document.querySelector(".autoplay-progress span");
+        var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        on: {
+            autoplayTimeLeft(s, time, progress) {
+            progressCircle.style.setProperty("--progress", 1 - progress);
+            progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+            }
+        }
+        });
+    </script>
+    <script>
+        AOS.init();
+
+        AOS.init({
+            duration: 3000, // values from 0 to 3000, with step 50ms
+            once: true, // whether animation should happen only once - while scrolling down
+        });
+    </script>
+</body>
+</html>
