@@ -1,0 +1,42 @@
+Topic - French Food Blog
+
+logo - 
+navbar
+-Home
+-Main Dishes
+-Breads
+-Desserts
+-About Us
+-Recommendations
+-Contact Us
+
+
+---
+Home
+---
+hero section
+    - image -slideshow
+-home about section
+    -As they say in Paris, "c'est la vie"!
+    -These are the latest recipes on the Blog:
+    - 4 featured different recipes with a link
+        -
+
+-contact newsletter section
+    -images background
+        - Ooh la la! Discover the magic of French cuisine
+        - input bar - email for newsletter
+-footer
+    4 columns
+        -1
+        - About The Blog 
+        - (short description)
+        -2
+        -navbar links
+        -3
+        -contact details
+        -social media icons
+        - input bar - email for newsletter
+        -4
+        -youtube video embedded
+
