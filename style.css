@@ -252,3 +252,6 @@ footer{
 .contact button{
     font-family: 'Vollkorn SC', sans-serif;
 }
+.page-item a{
+    color: #000;
+}
